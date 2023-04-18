@@ -1,0 +1,3 @@
+1 page d'accueil 
+2 page de choix 
+3 employé/stock 

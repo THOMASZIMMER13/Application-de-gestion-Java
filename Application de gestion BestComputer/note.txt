@@ -1,0 +1,2 @@
+connexion a la base en utilisant le connecteur 
+javac -classpath .;mysql-connector-java-5.1.46-bin.jar fenetreStoque.java 
