@@ -1,6 +1,6 @@
 public class commercial extends employe { 
 
-int nbH =140;
+private int nbH =140;
 
 public commercial (String sonNom, String sonPrenom, int sonAge, String saDateEntre) {
 super(sonNom, sonPrenom, sonAge, saDateEntre); 

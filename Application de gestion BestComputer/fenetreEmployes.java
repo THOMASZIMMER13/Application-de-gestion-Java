@@ -110,7 +110,7 @@ js.setVisible(false);
 
 Object [] elements = new Object []{"chef d'entreprise", "responsable informatique", "responsable commercial", "commercial 1", "commercial 2", "technicien 1", "technicien 2", "technicien 3", "manutensionnaire 1", "manutensionnaire 2", "manutensionnaire 3"};
 JComboBox<String> liste = new JComboBox(elements);
-liste.setBounds(15, 130, 120, 23); 
+liste.setBounds(15, 130, 160, 23); 
 liste.requestFocusInWindow();
 
 

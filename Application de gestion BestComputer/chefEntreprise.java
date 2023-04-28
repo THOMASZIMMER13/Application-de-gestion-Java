@@ -1,6 +1,6 @@
 public class chefEntreprise extends employe {
 
-int chiffreAffaire=30000; 
+private int chiffreAffaire=30000; 
 
 
 public chefEntreprise (String sonNom, String sonPrenom, int sonAge, String saDateEntre) {

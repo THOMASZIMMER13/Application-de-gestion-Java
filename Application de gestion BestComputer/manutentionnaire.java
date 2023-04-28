@@ -1,6 +1,6 @@
 public class manutentionnaire extends employe {
 
-int nbH =140;
+private int nbH =140;
 
 public manutentionnaire (String sonNom, String sonPrenom, int sonAge, String saDateEntre) {
 super(sonNom, sonPrenom, sonAge, saDateEntre); 

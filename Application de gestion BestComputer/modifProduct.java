@@ -17,6 +17,7 @@ public class modifProduct extends JFrame implements ActionListener {
 
 setTitle("Actualisation des informations produits");
     setSize(400, 600);
+ getContentPane().setBackground(Color.BLUE);
     setLocationRelativeTo(null);
 setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 setLayout(null); //empécher le positionnement automatique des fenetres

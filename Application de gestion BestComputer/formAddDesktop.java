@@ -193,29 +193,29 @@ jtfOs.setToolTipText("Système d'exploitation");
 		
 
 		btAdd=new JButton("Ajouter");
-		btAdd.setBounds(150,550,150,30);
+		btAdd.setBounds(20,590,120,30);
 		btAdd.setBackground(Color.green);
-		btAdd.setFont(new Font("Arial",Font.BOLD,18));
-		btAdd.setForeground(Color.green);
+		btAdd.setFont(new Font("Arial",Font.BOLD,12));
+		btAdd.setForeground(Color.black);
 btAdd.addActionListener(this);
 		btAdd.requestFocusInWindow();
 		pan.add(btAdd);
 
 
 		btClose=new JButton("Fermer");
-		btClose.setBounds(150,590,150,30);
+		btClose.setBounds(160,590,120,30);
 		btClose.setBackground(Color.red);
-		btClose.setFont(new Font("Arial",Font.BOLD,18));
-		btClose.setForeground(Color.red);
+		btClose.setFont(new Font("Arial",Font.BOLD,12));
+		btClose.setForeground(Color.black);
 btClose.addActionListener(this);
 		btClose.requestFocusInWindow();
 		pan.add(btClose);
 
-		btReset=new JButton("Effacer les champs de text");
-		btReset.setBounds(150,630,150,30);
+		btReset=new JButton("Effacer les champs");
+		btReset.setBounds(300,590,140,30);
 		btReset.setBackground(new Color(173, 216, 230)); // Couleur bleu clair
-		btReset.setFont(new Font("Arial",Font.BOLD,18));
-		btReset.setForeground(Color.blue);
+		btReset.setFont(new Font("Arial",Font.BOLD,10));
+		btReset.setForeground(Color.black);
 btReset.addActionListener(this);
 		btReset.requestFocusInWindow();
 		pan.add(btReset);

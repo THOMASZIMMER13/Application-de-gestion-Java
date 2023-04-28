@@ -1,7 +1,6 @@
 public class responsableCommercial extends employe {
 
-int chiffreAffaire=30000; 
-
+private int chiffreAffaire=30000; 
 
 public responsableCommercial (String sonNom, String sonPrenom, int sonAge, String saDateEntre) {
 super(sonNom, sonPrenom, sonAge, saDateEntre); 
