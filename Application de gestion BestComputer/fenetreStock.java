@@ -120,8 +120,7 @@ public void actionPerformed (ActionEvent e) {
 //test si l'utilisateur clique sur le premier bouton afin d'effectuer l'affichage.
 if (e.getSource() == btStock) {
 //affichage de tous le stoque
-//view v1 = new view();
-new View ();
+View v1 = new View();
 }
 if (e.getSource() == btAddLaptop) {
      formAddLaptop form=new formAddLaptop();
